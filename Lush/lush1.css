@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+}
+
+/*========Styling the first section========*/
+
+#first-section{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 85px;
+    height: 90vh;
+    background-image: url(https://outsideinco.com/cdn/shop/articles/lowlightindoorplants_960x.png?v=1611779124);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+header h3{
+    font-size: 2rem;
+    font-family:monospace;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover{
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: gray;
+}
+.button{
+    border: 2px solid white;
+    text-align: center;
+    padding: 6px;
+    border-radius: 5px
+}
+
+.button:hover{
+    background-color: gray;
+}
+
+.content{
+    color: white;
+    text-align: center;
+}
+.content h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.content p{
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white ;
+    padding: 6px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.content a:hover{
+ background-color: white;
+}
+/*===========Styling the second section===========*/
+
+.second-section{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 85px;
+}
+
+.grid-3-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-div h2{
+    font-size: 2rem;
+    color: rgb(10, 150, 10);
+}
+
+.articles-div{
+    margin-top:100px ;
+    display: flex;
+        margin-bottom: 65px;
+    gap: 75px;
+}
+.Indoor{
+    height: auto;
+    width: 300px;
+    box-shadow: 5px 5px 15px rgb(195, 194, 194);
+    padding-top: 20px;
+    padding-right: 21px;
+    padding-left: 21px;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.Indoor img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.Indoor h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:green;
+    margin-left: 20px;
+}
+.Indoor:hover{
+    background-color: rgb(66, 226, 66);
+}
+
+/*=======Styling the third section=======*/
+
+#third-section{
+    padding-right: 85px;
+    padding-left: 100px;
+}
+#third-section h2{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(86, 211, 86);
+  margin-bottom: 50px;
+}
+
+#third-section ul{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin-right: 80px;
+    color: green;
+}
+
+#third-section ul li img{
+    width:100%;
+    object-fit: cover;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#third-section li{
+    width: 250px;
+    height:300px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(137, 137, 137);
+}
+.plant{
+    color: gainsboro;
+}
+.plant-1{
+    color: green;
+}
+.plant-2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.li-a a{
+    padding: 6px;
+    float: right;
+    margin-top: -40px;
+    color: green;
+    border: 2px solid green;
+    border-radius:7px;
+}
+#third-section a, p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*=======STYLING THE FOURTH SECTION=======*/
+  #fourth-section{
+    padding-top: 140px;
+    padding-left: 10px;
+    
+  }
+.grid{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 300px;
+    border: 1px solid rgb(198, 195, 195);
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.grid i{
+    color: green;
+    height: 50px;
+    font-size: 5rem;
+}
+.grid:hover{
+    background-color: rgb(200, 199, 199);
+}
+.grid h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.grid-2{
+ border: none;
+ width: 600px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: none;
+}
+.grid-1 {
+    border:none;
+  width: 790px;
+  height: 550px;
+}
+.grid-1 img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.large-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*=======STYLING THE FIFTH SECTION=======*/
+#fifth-section{
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+}
+#fifth-section h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: rgb(34, 223, 34);
+    font-weight: bold;
+}
+
+.big-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.first-card{
+    border: none;
+    width: 600px;
+    height: 810px;
+}
+.first-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.second-card{
+    gap: 10px;
+    gap: none;
+     border: none;
+    width: 790px;
+    height: 800px;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    background-color: white;
+}
+.small-cards{
+    border: none;
+    width: 395px;
+    height: 400px;
+}
+.small-cards img{
+    height:400px ;
+    width: 390px;
+    object-fit: cover;
+}
+
+/*=======STYLING THE SIXTH SECTION=======*/
+
+#sixth-section{
+    height: auto;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+}
+#sixth-section h2{
+    text-align: center;
+    color: rgb(46, 179, 46);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text-cards{
+    display: flex;
+    gap:55px
+}
+
+.text-card{
+    width: 350px;
+    border: none;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.text-card img{
+    border-radius: 100%;
+    margin-bottom: 30px;
+    margin-left:10px;
+    height: 60px;
+    width: 60px;
+
+}
+.text-card h3{
+    float: right;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+/*=======STYLING THE SEVENTH SECTION=======*/
+
+#seventh-section{
+    height: 50vh;
+    background-image: url(https://github.com/Dev-Timberly29/LUSH/blob/master/picture/green.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left:80px;
+}
+#seventh-section div{
+    color: white;
+    font-size: 2rem;
+    width: 600px;
+    border: none;
+}
+
+form{
+    float: right;
+    margin-right: 100px;
+    margin-top: -69px;
+    color: white;
+}
+form button{
+    background-color: rgb(40, 176, 40);
+    padding: 10px;
+    width: 120px;
+    border-radius: 9px;
+}
+.form-controll{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 400px;
+}
+
+/*=======STYLING THE EIGHTHT SECTION=======*/
+
+#eight-section{
+    height: auto;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.second-heading{
+    text-align: center;
+    margin-bottom: 54px;
+    font-size: 3rem;
+    color: green;
+    font-weight: bold;
+}
+
+.out-card{
+    display: flex;
+    gap: 50px;
+}
+
+.in-card{
+  width: 400px;
+  border: none;
+  background-color: aliceblue;
+}
+
+.in-card h3{
+    color: green;
+    margin-bottom: 10px;
+}
+
+.in-card h3, p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.in-card img{
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 20px;
+}
+.in-card i{
+    margin-top: 35px;
+}
+.jan{
+    float:right ;
+    margin-right: 170px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: gainsboro;
+}
+.jan-1{
+    float: right;
+    margin-right: 30px;
+    margin-top: -59px;
+}
+
+.jan-1,a{
+    text-decoration: none;
+    color: green;
+}
+
+/*=======STYLING THE FOOTER=======*/
+
+footer{
+    margin-top: 55px;
+    padding-top: 30px;
+    background-color:green;
+    height: 40vh;
+}
+footer h3{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer .svg{
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+.footer-div{
+    background-color: black;
+    padding: 7px;
+    margin-top: 59px;
+}
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icon div{
+    border:1px solid white;
+    border:2px solid white;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
