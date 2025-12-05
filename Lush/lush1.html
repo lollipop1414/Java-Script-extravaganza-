@@ -18,10 +18,10 @@
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
+          <li><a href="#\">About Us</a></li>
           <li><a href="#">Plants</a></li>
           <li><a href="#">Contact</a></li>
-          <a class="button" href="#">Call Us</a>
+          <button id="callUs">Call us</button>
         </ul>
       </nav>
     </header>
@@ -29,9 +29,9 @@
       <h1>Nature’s Beauty Delivered to You</h1>
       <p>Nature’s beauty is just a click away with our online flower and plant shop. We offer a <br>
         wide variety of flowers that will bring a touch of nature to your home!</p>
-      <div>
-        <a href="#">Book Now</a>
-        <a href="#"> <i class="fa fa-play-circle" aria-hidden="true"></i></i> Watch Video</a>
+      <div class="buton">
+        <button id="bookPlant">Book now</button>
+        <button id="contactInfo">Contact us</button>
       </div>
     </div>
   </section>
@@ -269,7 +269,7 @@
       </div>
       <form>
         <input class="form-controll" type="email" placeholder="Enter your email" />
-        <button type="submit">Submit</button>
+        <button id="">Submit</button>
       </form>
     </section>
  <!--==========eight-section=============-->
@@ -341,15 +341,52 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
     </nav>
-    <div class="footer-div">
-      <p>&copy; 2025 Lush. All rights reserved.</p>
-      <div></div>
-  </footer>
+    </main>  <!-- Close main first -->
 
   </main>
 
-</body>
+  <!--=============footer=============-->
+  <footer>
+    <h3>Feel free to contact us</h3>
+    <div class="icon">
+       <div>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+       </div>
+       <div>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+       </div>
+       <div>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+       </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Plants</a></li>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2025 Lush. All rights reserved.</p>
+  </footer>
 
+  <!-- Dialog Box for Booking -->
+  <div class="dialog-overlay" id="dialogOverlay">
+    <div class="dialog-box">
+      <h2 class="dialog-header" id="dialogHeader">Booking Confirmed!</h2>
+      <div class="dialog-content" id="dialogContent">
+        Your booking details will appear here!
+      </div>
+      <button class="close-dialog-btn" id="closeDialogBtn">Close</button>
+    </div>
+  </div>
+
+  <script src="lush.js"></script>
+
+</body>
 </html>
 
-
+</body>
+</html>
