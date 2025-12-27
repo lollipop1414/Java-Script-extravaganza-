@@ -1,0 +1,663 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+}
+
+/*========Styling the first section========*/
+
+#first-section{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 85px;
+    height: 90vh;
+    background-image: url(https://outsideinco.com/cdn/shop/articles/lowlightindoorplants_960x.png?v=1611779124);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+header h3{
+    font-size: 2rem;
+    font-family:monospace;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+ul button{
+    border: 2px solid white;
+    text-align: center;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+ul button:hover{
+    background-color: gray; 
+    color: white;
+}
+
+.button{
+    border: 2px solid white;
+    text-align: center;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+.content{
+    color: black;
+    text-align: center;
+}
+.content h1{
+    font-size: 3rem;
+    color: rgb(108, 105, 105);
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.content p{
+    color: rgb(108, 105, 105);
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.content button{
+    text-decoration: none;
+    color: rgb(26, 22, 22);
+    border: 2px solid rgb(16, 15, 15);
+    padding: 6px;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.content button:hover{
+ background-color: green;
+ color: white;
+}
+
+/*===========Styling the second section===========*/
+
+.second-section{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 85px;
+}
+
+.grid-3-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-div h2{
+    font-size: 2rem;
+    color: rgb(10, 150, 10);
+}
+
+.articles-div{
+    margin-top:100px;
+    display: flex;
+    margin-bottom: 65px;
+    gap: 75px;
+}
+.Indoor{
+    height: auto;
+    width: 300px;
+    box-shadow: 5px 5px 15px rgb(195, 194, 194);
+    padding-top: 20px;
+    padding-right: 21px;
+    padding-left: 21px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.Indoor img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.Indoor h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:green;
+    margin-left: 20px;
+}
+.Indoor:hover{
+    background-color: rgb(66, 226, 66);
+    transform: translateY(-5px);
+}
+
+/*=======Styling the third section=======*/
+
+#third-section{
+    padding-right: 85px;
+    padding-left: 100px;
+}
+#third-section h2{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(86, 211, 86);
+  margin-bottom: 50px;
+}
+
+#third-section ul{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin-right: 80px;
+    color: green;
+}
+
+#third-section ul li img{
+    width:100%;
+    object-fit: cover;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#third-section li{
+    width: 250px;
+    height:300px;
+    border-radius:10px;
+    box-shadow: 5px 5px 15px rgb(137, 137, 137);
+    transition: all 0.3s ease;
+}
+
+#third-section li:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 10px 25px rgb(100, 100, 100);
+}
+
+.plant{
+    color: gainsboro;
+}
+.plant-1{
+    color: green;
+}
+.plant-2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.li-a a{
+    padding: 6px;
+    float: right;
+    margin-top: -40px;
+    color: green;
+    border: 2px solid green;
+    border-radius:7px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.li-a a:hover{
+    background-color: green;
+    color: white;
+}
+
+#third-section a, p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*=======STYLING THE FOURTH SECTION=======*/
+#fourth-section{
+    padding-top: 140px;
+    padding-left: 10px;
+}
+.grid{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 300px;
+    border: 1px solid rgb(198, 195, 195);
+    padding-left: 9px;
+    padding-right: 9px;
+    transition: all 0.3s ease;
+}
+.grid i{
+    color: green;
+    height: 50px;
+    font-size: 5rem;
+}
+.grid:hover{
+    background-color: rgb(200, 199, 199);
+    transform: translateY(-3px);
+}
+.grid h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.grid-2{
+ border: none;
+ width: 600px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: none;
+}
+.grid-1 {
+    border:none;
+  width: 790px;
+  height: 550px;
+}
+.grid-1 img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.large-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*=======STYLING THE FIFTH SECTION=======*/
+#fifth-section{
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+}
+#fifth-section h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: rgb(34, 223, 34);
+    font-weight: bold;
+}
+
+.big-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.first-card{
+    border: none;
+    width: 600px;
+    height: 810px;
+}
+.first-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.second-card{
+    gap: 10px;
+    border: none;
+    width: 790px;
+    height: 800px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    background-color: white;
+}
+.small-cards{
+    border: none;
+    width: 395px;
+    height: 400px;
+}
+.small-cards img{
+    height:400px;
+    width: 390px;
+    object-fit: cover;
+}
+
+/*=======STYLING THE SIXTH SECTION=======*/
+
+#sixth-section{
+    height: auto;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+}
+#sixth-section h2{
+    text-align: center;
+    color: rgb(46, 179, 46);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text-cards{
+    display: flex;
+    gap:55px;
+    margin-top: 40px;
+}
+
+.text-card{
+    width: 350px;
+    border: none;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    transition: all 0.3s ease;
+}
+
+.text-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.text-card img{
+    border-radius: 100%;
+    margin-bottom: 30px;
+    margin-left:10px;
+    height: 60px;
+    width: 60px;
+
+}
+.text-card h3{
+    float: right;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+/*=======STYLING THE SEVENTH SECTION=======*/
+
+#seventh-section{
+    height: 50vh;
+    background-image: url(https://github.com/Dev-Timberly29/LUSH/blob/master/picture/green.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#seventh-section div{
+    color: white;
+    font-size: 2rem;
+}
+
+.sign-in{
+    margin-right: 100px;
+}
+
+#showFormBtn {
+    padding: 24px 45px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #22c55e, #16a34a, #15803d);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#showFormBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+#showFormBtn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/*=======STYLING THE EIGHTH SECTION=======*/
+
+#eight-section{
+    height: auto;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.second-heading{
+    text-align: center;
+    margin-bottom: 54px;
+    font-size: 3rem;
+    color: green;
+    font-weight: bold;
+}
+
+.out-card{
+    display: flex;
+    gap: 50px;
+}
+
+.in-card{
+  width: 400px;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.in-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.in-card h3{
+    color: green;
+    margin-bottom: 10px;
+}
+
+.in-card h3, p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.in-card img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.in-card i{
+    margin-top: 35px;
+}
+.jan{
+    float:right;
+    margin-right: 170px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: gainsboro;
+}
+.jan-1{
+    float: right;
+    margin-right: 30px;
+    margin-top: -59px;
+}
+
+.jan-1 a{
+    text-decoration: none;
+    color: green;
+    transition: all 0.3s ease;
+}
+
+.jan-1 a:hover{
+    color: darkgreen;
+}
+
+/*=======STYLING THE FOOTER=======*/
+
+footer{
+    margin-top: 55px;
+    padding-top: 30px;
+    background-color:green;
+    height: 40vh;
+}
+footer h3{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer nav{
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul{
+    gap: 30px;
+}
+
+footer nav ul li a{
+    color: white;
+}
+
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icon div{
+    border:2px solid white;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.icon div:hover{
+    background-color: white;
+    color: green;
+}
+
+/* Dialog Overlay */
+.dialog-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-overlay.open {
+    display: flex;
+}
+
+.dialog-box {
+    background: white;
+    border-radius: 25px;
+    padding: 50px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+    animation: dialogPop 0.3s ease;
+}
+
+@keyframes dialogPop {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.dialog-header {
+    font-size: 2.2em;
+    color: #2e7d32;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dialog-content {
+    font-size: 1.3em;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.dialog-content ul {
+    display: block;
+    list-style-position: inside;
+}
+
+.close-dialog-btn {
+    background: linear-gradient(135deg, #66bb6a 0%, #43a047 100%);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 12px;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.close-dialog-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(102, 187, 106, 0.4);
+}
+
+#viewCart {
+    border: 2px solid white;
+    text-align: center;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#viewCart:hover {
+    background-color: #22c55e;
+    color: white;
+}
+
+#cartCount {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
